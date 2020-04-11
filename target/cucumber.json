@@ -1,0 +1,201 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "As a user I should be able to enter keys into  Amazon Searchbar and search",
+        "description": "",
+        "id": "amazon-searchbar-features;as-a-user-i-should-be-able-to-enter-keys-into--amazon-searchbar-and-search;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46414416683,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "url is www.Amazon.com",
+            "match": {
+              "location": "SearchbarStepDefinition.url_is_www_Amazon_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1031950860,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is already on login page",
+            "match": {
+              "location": "SearchbarStepDefinition.user_is_already_on_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1182832993,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should locate the searchbar",
+            "match": {
+              "location": "SearchbarStepDefinition.user_should_locate_the_searchbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 789477281,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user will click on the Amazon Searchbar",
+            "match": {
+              "location": "SearchbarStepDefinition.user_will_click_on_the_Amazon_Searchbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 980912507,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user will be able to enter keywords into the searchbar",
+            "match": {
+              "location": "SearchbarStepDefinition.user_will_be_able_to_enter_keywords_into_the_searchbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4582348615,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be able to click on the search button",
+            "match": {
+              "location": "SearchbarStepDefinition.user_should_be_able_to_click_on_the_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189267806,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003cAmazon.com[ ]: samsung mobile\u003e but was:\u003cAmazon.com[]: samsung mobile\u003e\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\n\tat stepDefinitions.SearchbarStepDefinition.user_is_on_the_designated_search_page(SearchbarStepDefinition.java:60)\n\tat ✽.And user is on the designated search page(searchbar.feature:9)\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user is on the designated search page",
+            "match": {
+              "location": "SearchbarStepDefinition.user_is_on_the_designated_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "As a user I should be able to enter keys into  Amazon Searchbar and search",
+        "description": "",
+        "id": "amazon-searchbar-features;as-a-user-i-should-be-able-to-enter-keys-into--amazon-searchbar-and-search;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9036830907,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "url is www.Amazon.com",
+            "match": {
+              "location": "SearchbarStepDefinition.url_is_www_Amazon_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13542752,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is already on login page",
+            "match": {
+              "location": "SearchbarStepDefinition.user_is_already_on_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88440865,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should locate the searchbar",
+            "match": {
+              "location": "SearchbarStepDefinition.user_should_locate_the_searchbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2942410440,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user will click on the Amazon Searchbar",
+            "match": {
+              "location": "SearchbarStepDefinition.user_will_click_on_the_Amazon_Searchbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2520834619,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user will be able to enter keywords into the searchbar",
+            "match": {
+              "location": "SearchbarStepDefinition.user_will_be_able_to_enter_keywords_into_the_searchbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4032341515,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be able to click on the search button",
+            "match": {
+              "location": "SearchbarStepDefinition.user_should_be_able_to_click_on_the_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1756096705,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on the designated search page",
+            "match": {
+              "location": "SearchbarStepDefinition.user_is_on_the_designated_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Searchbar features",
+    "description": "",
+    "id": "amazon-searchbar-features",
+    "keyword": "Feature",
+    "uri": "searchbar.feature"
+  }
+]
